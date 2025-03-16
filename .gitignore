@@ -1,0 +1,5 @@
+secret.txt
+*.log
+build/
+*.pyc
+.git
