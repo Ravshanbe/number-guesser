@@ -44,6 +44,6 @@ while count < finish:
 if total_score_a > total_score_b:
     print('Damir aka won!🎉')
 elif total_score_a < total_score_b:
-    print('Bot wins')
+    print('Bot won!')
 else:
     print('Draw')
