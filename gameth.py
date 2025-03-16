@@ -30,7 +30,7 @@ total_score_b = 0
 last_score_a = 1
 while count < finish:
     a = int(input('Are you cooperating or not (press 1 or 0, respectively): '))
-    b = bot2(a=last_score_a)
+    b = bot1()
     last_score_a = a
     score_a, score_b = give_score(a, b)
     total_score_a += score_a
@@ -42,7 +42,7 @@ while count < finish:
     count += 1
 
 if total_score_a > total_score_b:
-    print('Damir aka wins')
+    print('Damir aka won!🎉')
 elif total_score_a < total_score_b:
     print('Bot wins')
 else:
