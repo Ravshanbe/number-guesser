@@ -42,7 +42,7 @@ while count < finish:
     count += 1
 
 if total_score_a > total_score_b:
-    print('Damir aka won!🎉')
+    print('You won!')
 elif total_score_a < total_score_b:
     print('Bot won!')
 else:
